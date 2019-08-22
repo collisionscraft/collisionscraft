@@ -1,0 +1,117 @@
+header {
+	margin:10;
+	width: 100%;
+    text-align: left;  
+    position: fixed;
+    font-size: 16px;
+}
+
+body{
+	background-color: #ffeee6;
+	padding:0;
+	margin: 10px;
+    font-family: apple garamond; 
+    font-size: 14px;
+    color: #333;
+    text-align: center;  
+}
+
+a {color: #333;}
+a:active {color: #000;}
+a:hover {color: #ccc !important; text-decoration: none;}
+a:visited {color: #333;}
+
+.image {
+	padding:5px;
+    width: 100%;
+}
+
+.image_small {
+	padding:5px;
+    width: 50%;
+}
+
+.image_med {
+	padding:0px;
+    width: 80%;
+}
+
+.div {
+	margin: auto;
+	width: 800px;
+	overflow: hidden;
+}
+
+
+.sidenav {
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 50;
+  left: 0;
+  background-color: transparent;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  overflow-y: hidden;
+  padding-top: 20px;
+    margin: 5px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+    text-align: left;
+  font-size: 14px;
+  color: #333;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #ccffb3;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  margin-top: 60px;
+  padding: 0px 50px;
+    display: block;
+    width: 70%;
+    height: 100%;
+    position: absolute;
+    font-size: 14px;
+}
+
+.crv{
+    display: block;
+    width: 83px;
+    height: 40px;
+    margin: 0 auto;
+    background-image: url(../content/images/icons/crv_sprite.png);
+    background-position: left;
+}
+.crv:hover{
+    background-position: right;
+}
+
+.crv a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.boxes{
+    display: block;
+    width: 97.5px;
+    height: 105px;
+    margin: 0 auto;
+    background-image: url(../content/images/icons/box_sprite.png);
+    background-position: left;
+}
+.boxes:hover{
+    background-position: right;
+}
+
+.boxes a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
