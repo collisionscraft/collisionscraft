@@ -11,7 +11,7 @@ body{
 	padding:0;
 	margin: 10px;
     font-family: apple garamond; 
-    font-size: 14px;
+    font-size: 16px;
     color: #333;
     text-align: center;  
 }
@@ -32,7 +32,7 @@ a:visited {color: #333;}
 }
 
 .image_med {
-	padding:0px;
+	padding:5px;
     width: 80%;
 }
 
@@ -60,7 +60,7 @@ a:visited {color: #333;}
   padding: 6px 8px 6px 16px;
   text-decoration: none;
     text-align: left;
-  font-size: 14px;
+  font-size: 16px;
   color: #333;
   display: block;
 }
@@ -77,8 +77,62 @@ a:visited {color: #333;}
     width: 70%;
     height: 100%;
     position: absolute;
-    font-size: 14px;
+    font-size: 16px;
 }
+
+
+  /* MOBILE: */
+@media screen and (max-width: 700px) {
+  
+    .header {
+    font-size: 18px;
+    width:25%;
+    margin:10;
+    }
+    
+    .body{
+    font-size: 16px;
+    display: inline-block;
+    }
+    
+    .main {
+        margin-left: 0px;
+        width: 100%;
+        margin-top: 20px;
+        padding: 0px 0px;
+        width: 100%;
+        font-size: 16px;       
+    }
+    
+    .sidenav {
+    width: 75%;
+    height: auto;
+    position: relative;
+    top: 0;
+    display: inline-block;
+    margin-bottom: 10px ;
+  }
+    
+  .sidenav a {
+      float: right;
+      text-align: right;
+      top: 0;
+      padding: 6px;
+      font-size: 16px;
+    }
+
+    .image_small {
+	   padding:5px;
+        width: 100%;
+    }
+
+    .image_med {
+	   padding:0px;
+        width: 100%;
+    }
+
+}
+
 
 .crv{
     display: block;
