@@ -57,6 +57,11 @@ a:visited {color: #333;}
     font-size: 16px;
 }
 
+video{
+    padding:5px;
+    width: 80%;
+    display: block;
+}
 
 /* side menu */
 .sidenav {
@@ -160,6 +165,26 @@ a:visited {color: #333;}
 }
 
 .desk a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* walk button */
+.walk{
+    display: block;
+    width: 195.5px;
+    height: 189px;
+    margin: 0 auto;
+    background-image: url(../content/images/icons/walk_sprite.png);
+    background-position: right;
+}
+.walk:hover{
+    background-position: left;
+}
+
+.walk a {
     display: block;
     width: 100%;
     height: 100%;
